@@ -28,7 +28,7 @@ function get_useragent_names(string $usrag)
 	$browser_img = $browser_version = '';
 
 	// Browser detection
-	$browsers = array('Opera', 'Avant', 'Maxthon', 'Edg', 'MSIE', 'OPR', 'YaBrowser', 'Chromium', 'Vivaldi', 'Chrome', 'Arora', 'Epiphany', 'Galeon', 'iCab', 'Konqueror', 'Safari', 'Flock', 'Iceweasel', 'SeaMonkey', 'Netscape', 'K-Meleon', 'Firefox', 'Camino', 'Trident');
+	$browsers = array('Opera', 'Avant', 'Maxthon', 'Edg', 'MSIE', 'OPR', 'YaBrowser', 'Chromium', 'Vivaldi', 'Chrome', 'Arora', 'Epiphany', 'Galeon', 'iCab', 'Konqueror', 'Safari', 'Flock', 'Iceweasel', 'RetroZilla', 'SeaMonkey', 'Netscape', 'K-Meleon', 'Firefox', 'Camino', 'Trident');
 
 	$browser = $subpt = ua_search_for_item($browsers, $usrag);
 
